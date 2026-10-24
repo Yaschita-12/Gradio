@@ -10,7 +10,7 @@ demo = gr.Interface(
     inputs = [gr.Textbox(label="Name: "),
         gr.Slider(label="Age: "),
         gr.Radio(label="Subject Preference: ", choices=[]),
-        gr.Checkboxgroup(label='Hobbies:', choices=[])
+        gr.Checkboxgroup(label='Hobbies:', choices=[singing, dancing])
     ],
     outputs=[gr.Textbox()]
 )
